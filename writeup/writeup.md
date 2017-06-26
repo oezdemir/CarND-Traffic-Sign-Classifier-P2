@@ -1,9 +1,9 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
 This is the write up for the Udacity self driving car nanodegree, traffic sign recognition project. The source code for this project is located [here](../code/).
 The german traffic sign data used for this project can be downloaded from [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip).
 
-##1 - Data Set Summary & Exploration
+## 1 - Data Set Summary & Exploration
 
 
 I used numpy to calculate summary statistics of the traffic signs data set. The data set summary looks as following:
@@ -24,7 +24,7 @@ The next diagram shows example images for each class:
 ![png](img/output_5_1.png)
 
 
-##2 - Design and Test a Model Architecture
+## 2 - Design and Test a Model Architecture
 
 There are different ways to preprocess images. Important is that the network will be trained on compareable input data. For images this step involves normalization.
 
